@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* REUSEABLEs */
+
+.title {
+  text-align: center;
+  margin: 20px;
+}
+
+/* HEADER */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  margin: 10px;
+  background-color: #dcdcdc;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+/* SERVICES */
+
+.services-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #f5f5dc;
+  border-radius: 10%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.testimonial-card {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  background-color: #f5f5dc;
+}
+
+.testimonial-card > img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
